@@ -17,7 +17,11 @@ export const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
     <ProfileStyle>
       <CardStyle>
+<<<<<<< Updated upstream
         <ImgStyle src={avatar} alt={username} />
+=======
+        <ImgStyle src={avatar} alt={username} class="avatar" />
+>>>>>>> Stashed changes
 
         <DescriptionStyle>
           <NameStyle>{username}</NameStyle>
