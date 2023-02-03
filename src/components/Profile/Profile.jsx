@@ -17,7 +17,7 @@ export const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
     <ProfileStyle>
       <CardStyle>
-        <ImgStyle src={avatar} alt={username} class="avatar" />
+        <ImgStyle src={avatar} alt={username} />
 
         <DescriptionStyle>
           <NameStyle>{username}</NameStyle>
